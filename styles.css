@@ -1,0 +1,227 @@
+img:not(.gridimages img)
+{
+    border-style: solid;
+    border-width: 4px;
+    border-color:palevioletred;
+    padding: 2px;
+    margin: 2px;
+}
+
+.aboutmep p{
+    width:40%; 
+    border-style:solid;
+    border-color: black; 
+    position:relative; 
+    margin:0 auto;
+}
+
+.aboutmep img{
+    width:25%;
+}
+
+.sidebar a{
+    width:7%; position:absolute; left:0.015%; top:13%
+}
+.sidebar p{
+    font-weight:bold;
+    border-style: solid; 
+    border-color: rgb(0, 225, 255);  
+    width:7%; height:55%; 
+    position:absolute; 
+    left: 0.01%; 
+    top:5%;
+    background-color: rgb(233, 131, 131);
+}
+
+#bulletin {
+    background-image: url("https://t4.ftcdn.net/jpg/00/38/09/19/360_F_38091957_jYcFRja0hUav8KNAPks62eWL7tUlV425.jpg");
+    background-size: 50%;
+    font-size: 64px;
+    height: 250px;
+    width: 40%;
+    position: relative;
+    top: 50%;
+    text-align: center;
+
+}
+
+
+.sidebar p::before{
+    content: "*";
+    font-size:28;
+}
+
+#close-button{
+    position:absolute; 
+    left: 7.3%; 
+    top:8%;
+}
+
+#open-button{
+    display: none;
+    position:absolute; 
+    left: 0.01%; 
+    top:8%;
+}
+
+
+[title~="section"]{
+    color: rgb(255, 0, 230);
+}
+[title~="stressed"]{
+    border-color: rgb(255, 0, 230);
+    border-radius:5px;
+}
+
+.fileinfo{
+    position:absolute; top:65%; left:0.015%; border-style:solid; border-color: green; width:13%;
+}
+
+h1, h2{
+    font-size:48px;
+    text-align: center;
+    
+}
+
+h ~ h{ 
+    font-weight:bold;
+}
+
+a{
+    color:rgb(0, 225, 255);
+}
+
+.widget{
+    width: 300px; 
+    border-style:solid;
+    border-color: blueviolet; 
+    position:absolute; 
+    left: 82%; 
+    top: 90%; 
+    margin: auto;
+}
+
+ul:not(.fileinfo ul), ol:not(.fileinfo ol){
+    border-style: solid;
+    border-width: 2px;
+    border-color: hotpink;
+}
+
+.information{
+    width:500px; 
+}
+
+.information ol{
+    width:50%;
+    font-weight: bold;
+}
+
+.information img{
+    width:100%;
+}
+
+*{
+    font-family: arial;
+}
+
+table{
+    border: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(81, 0, 255);
+}
+td, tr{
+    border: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+}
+
+
+li{
+    font-weight:bold;
+}
+
+.contactinfo form{
+    width: 15%;
+    height: 60%;
+    border-width: 6px;
+    border-color: rgb(255, 0, 106);
+    border-style:solid;
+    font-size: 4px;
+}
+.contactinfo input{
+    width:60%;
+    padding: 10px 10px;
+}
+
+.Gallery{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px;
+    padding: 20px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridimages img{
+    width:200px;
+    height:200px;
+}
+
+.gridimages {
+    display: flex;
+    gap:20px;
+    column-gap: 100px;
+}
+
+
+.careers p{
+    text-align:center;
+}
+
+.navigation > a{
+    border-width:2px;
+    border-style:solid; 
+    border-color: black; 
+    font-size:36px; 
+    color: rgb(0, 255, 26);
+    font-weight: bold;
+}
+.careers{
+    width: 600px
+}
+div + table{
+    width: 400px;
+}
+
+.careers img{
+    width:70%;
+}
+
+
+#palette1 {
+    position: absolute;
+    left: 0.75vw;
+    top: 12vh;
+    height: 2.5vh;
+    width: 1.5vw;
+}
+#palette2 {
+    position: absolute;
+    left: 2.75vw;
+    top: 12vh;
+    height: 2.5vh;
+    width: 1.5vw;
+}
+#palette3 {
+    position: absolute;
+    left: 4.75vw;
+    top: 12vh;
+    height: 2.5vh;
+    width: 1.5vw;
+}
+table, th, td {
+    border:1px solid black;
+  }

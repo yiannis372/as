@@ -1,0 +1,212 @@
+@media only screen and (max-width: 1000px){
+    h1{
+        position: absolute;
+        top: 3vh;
+        left: 31vw;
+    }
+    h2{
+        position: absolute;
+        top: 12vh;
+        left: 34.5vw;
+    }
+    h1, h2{
+        font-size: 64px;
+    }
+
+    #nav1{
+        font-size: 28px;
+        position: absolute;
+        left: 28vw;
+        width: 20vw;
+        top: 26vh;
+    }
+    
+    #nav2{
+        font-size: 28px;
+        position: absolute;
+        left: 52vw;
+        width: 20vw;
+        top: 26vh;
+    }
+    .widget a{
+        font-size: 36px;
+    }
+    #palette1 {
+        position: absolute;
+        left: 0.5vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    #palette2 {
+        position: absolute;
+        left: 6vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    #palette3 {
+        position: absolute;
+        left: 11.5vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    p:not(.sidebar p){
+
+        position:absolute;
+        top: 12vh;
+        left: 30vw;
+        font-size:28px;
+        width: 35vw;
+    }
+    .sidebar p{
+        font-size:24px;
+        width:17vw;
+        height:60vh;
+    }
+    table{
+        position:absolute;
+        top:27vh;
+        left:27vw;
+    }   
+    #course-button{
+        position:absolute;
+        top:40vh;
+        left:35vh;
+    }
+    #course-text{
+        position:absolute;
+        top:40vh;
+        left:22vh;
+    }
+    #course-response{
+        position:absolute;
+        top:42vh;
+        left:22vh;
+    }
+    .widget{
+        height: 9%;
+        width: 99.3%;
+        position: absolute;
+        left: 0.01%;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    h1{
+        position: absolute;
+        top: 3vh;
+        left: 31vw;
+    }
+    h2{
+        position: absolute;
+        top: 12vh;
+        left: 34.5vw;
+    }
+    h1, h2{
+        font-size: 64px;
+    }
+
+    #nav1{
+        font-size: 28px;
+        position: absolute;
+        left: 28vw;
+        width: 20vw;
+        top: 26vh;
+    }
+    
+    #nav2{
+        font-size: 28px;
+        position: absolute;
+        left: 52vw;
+        width: 20vw;
+        top: 26vh;
+    }
+    .widget a{
+        font-size: 36px;
+    }
+    #palette1 {
+        position: absolute;
+        left: 0.5vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    #palette2 {
+        position: absolute;
+        left: 6vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    #palette3 {
+        position: absolute;
+        left: 11.5vw;
+        top: 12vh;
+        height: 2.5vh;
+        width: 4.5vw;
+    }
+    p:not(.sidebar p){
+        position:absolute;
+        top: 20vh;
+        left: 26vw;
+        font-size:28px;
+        width: 50vw;
+    }
+
+    #bulletin{
+        position:absolute;
+        top:32vh;
+        height: 8vh;
+        width: 50vw;
+    }
+    .Gallery{
+        position:absolute;
+        top: 40vh;
+        left: 24vw;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 250px 250px 250px;
+    }
+    .sidebar p{
+        font-size:24px;
+        width:17vw;
+        height:60vh;
+    }
+    table{
+        position:absolute;
+        top:35vh;
+        left:27vw;
+    }   
+    #course-button{
+        position:absolute;
+        top:40vh;
+        left:35vh;
+    }
+    #course-text{
+        position:absolute;
+        top:40vh;
+        left:22vh;
+    }
+
+    #course-text{
+        position:absolute;
+        top:55vh;
+        left:37vw;
+    }
+    #course-button{
+        position:absolute;
+        top:55vh;
+        left:52vw;
+    }
+    #course-response{
+        position:absolute;
+        top:60vh;
+        left:37vw;
+    }
+    .widget{
+        width: 40vw;
+        position: absolute;
+        left: 59vw;
+    }
+}
